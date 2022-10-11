@@ -1,6 +1,9 @@
 package com.ll.exam.melon_exam.app.base.initData;
 
+import com.ll.exam.melon_exam.app.cart.service.CartService;
 import com.ll.exam.melon_exam.app.member.service.MemberService;
+import com.ll.exam.melon_exam.product.service.ProductService;
+import com.ll.exam.melon_exam.app.song.service.SongService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,9 +13,9 @@ import org.springframework.context.annotation.Profile;
 @Profile("dev")
 public class DevInitData implements InitDataBefore {
     @Bean
-    CommandLineRunner initData(MemberService memberService) {
+    CommandLineRunner initData(MemberService memberService, SongService songService, ProductService productService, CartService cartService) {
         return args -> {
-            before(memberService);
+            before(memberService, songService, productService, cartService);
         };
     }
 }
