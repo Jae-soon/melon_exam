@@ -14,6 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class CartService {
     private final CartItemRepository cartItemRepository;
 
+    @Transactional
     public CartItem addItem(Member buyer, Product product) {
         CartItem oldCartItem = cartItemRepository.findByBuyerIdAndProductId(buyer.getId(), product.getId()).orElse(null);
 
