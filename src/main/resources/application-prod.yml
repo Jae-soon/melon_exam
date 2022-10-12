@@ -14,7 +14,7 @@ spring:
 logging:
   level:
     root: info
-    com.ll.exam.com.ll.exam.melon_exam.app: info
+    com.ll.exam.final__2022_10_08.app: info
     org.hibernate.type.descriptor.sql: info
 custom:
   site:

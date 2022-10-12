@@ -1,6 +1,5 @@
 package com.ll.exam.melon_exam.app.home.controller;
 
-
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 

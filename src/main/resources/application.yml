@@ -1,3 +1,4 @@
+
 spring:
   profiles:
     active: dev
@@ -14,7 +15,7 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: jaesoon@gmail.com
+    username: a2346532@gmail.com
     password:
     properties:
       mail:
@@ -25,7 +26,7 @@ spring:
 logging:
   level:
     root: info
-    com.ll.exam.com.ll.exam.melon_exam.app: debug
+    com.ll.exam.melon_exam.app: debug
     org.hibernate.type.descriptor.sql: trace
 custom:
   site:

@@ -44,3 +44,4 @@ public class BaseEntity {
         this.modifyDate = modifyDate;
     }
 }
+
