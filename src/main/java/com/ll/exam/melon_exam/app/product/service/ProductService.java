@@ -1,8 +1,8 @@
-package com.ll.exam.melon_exam.product.service;
+package com.ll.exam.melon_exam.app.product.service;
 
+import com.ll.exam.melon_exam.app.product.entity.Product;
+import com.ll.exam.melon_exam.app.product.repository.ProductRepository;
 import com.ll.exam.melon_exam.app.song.entity.Song;
-import com.ll.exam.melon_exam.product.entity.Product;
-import com.ll.exam.melon_exam.product.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

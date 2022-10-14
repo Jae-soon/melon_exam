@@ -3,7 +3,7 @@ package com.ll.exam.melon_exam.app.cart.service;
 import com.ll.exam.melon_exam.app.cart.entity.CartItem;
 import com.ll.exam.melon_exam.app.cart.repository.CartItemRepository;
 import com.ll.exam.melon_exam.app.member.entity.Member;
-import com.ll.exam.melon_exam.product.entity.Product;
+import com.ll.exam.melon_exam.app.product.entity.Product;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

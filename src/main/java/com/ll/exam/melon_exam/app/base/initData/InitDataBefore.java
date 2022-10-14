@@ -8,8 +8,8 @@ import com.ll.exam.melon_exam.app.song.entity.Song;
 import com.ll.exam.melon_exam.app.order.entity.Order;
 import com.ll.exam.melon_exam.app.order.service.OrderService;
 import com.ll.exam.melon_exam.app.song.service.SongService;
-import com.ll.exam.melon_exam.product.entity.Product;
-import com.ll.exam.melon_exam.product.service.ProductService;
+import com.ll.exam.melon_exam.app.product.entity.Product;
+import com.ll.exam.melon_exam.app.product.service.ProductService;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.ll.exam.melon_exam.product.entity;
+package com.ll.exam.melon_exam.app.product.entity;
 
 import com.ll.exam.melon_exam.app.base.entity.BaseEntity;
 import com.ll.exam.melon_exam.app.member.entity.Member;

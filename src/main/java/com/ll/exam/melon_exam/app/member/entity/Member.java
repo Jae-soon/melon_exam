@@ -31,4 +31,6 @@ public class Member extends BaseEntity {
     public Member(long id) {
         super(id);
     }
+
+
 }

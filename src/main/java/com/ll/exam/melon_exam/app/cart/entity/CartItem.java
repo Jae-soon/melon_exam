@@ -2,7 +2,7 @@ package com.ll.exam.melon_exam.app.cart.entity;
 
 import com.ll.exam.melon_exam.app.base.entity.BaseEntity;
 import com.ll.exam.melon_exam.app.member.entity.Member;
-import com.ll.exam.melon_exam.product.entity.Product;
+import com.ll.exam.melon_exam.app.product.entity.Product;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

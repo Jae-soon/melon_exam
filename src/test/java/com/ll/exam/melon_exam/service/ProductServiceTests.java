@@ -2,8 +2,8 @@ package com.ll.exam.melon_exam.service;
 
 import com.ll.exam.melon_exam.app.song.entity.Song;
 import com.ll.exam.melon_exam.app.song.service.SongService;
-import com.ll.exam.melon_exam.product.entity.Product;
-import com.ll.exam.melon_exam.product.service.ProductService;
+import com.ll.exam.melon_exam.app.product.entity.Product;
+import com.ll.exam.melon_exam.app.product.service.ProductService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
